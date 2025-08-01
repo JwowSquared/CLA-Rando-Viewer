@@ -1,0 +1,22 @@
+u8 RandomizeAssociatedAbility(u8 prevAbility, u16 species ) {
+    u32 id = MathMax(1, T1_READ_32(gSaveBlock2->playerTrainerId)); //0 id would mean every Pokemon would crash the game
+    u32 abilityCount = 0; 
+    if (FlagGet(FLAG_CHRIS_KAIZO)){
+    abilityCount= gNumRandomizerKaizoAbilityList;
+    }
+    u32 index;
+    u8 newAbility;
+    murmurhash2a_init(index);
+    murmurhash2a_update(index, id);
+    murmurhash2a_update(index, species);
+    murmurhash2a_update(index, prevAbility);
+    murmurhash2a_final(index);
+
+    index = index % (u32) abilityCount;
+
+
+    if (FlagGet(FLAG_CHRIS_KAIZO)){
+        newAbility = gRandomizerKaizoAbilityList[index];
+    }
+    return newAbility;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Trainer Move Randomizer</title>
+  <style>
+    body { font-family: sans-serif; padding: 1rem; }
+    label, input { display: block; margin: 0.5rem 0; }
+    .trainer { margin-bottom: 1rem; border-bottom: 1px solid #ccc; padding-bottom: 1rem; }
+    .team { display: flex; gap: 1rem; }
+    .mon { padding: 0.5rem; border: 1px solid #ddd; border-radius: 5px; background: #f9f9f9; }
+  </style>
+</head>
+<body>
+  <h1>Trainer Move Randomizer</h1>
+  <label for="seed">Randomizer Seed (trainer ID):</label>
+  <input type="number" id="seed" value="1234">
+  <button id="randomize">Randomize</button>
+  <div id="output"></div>
+
+  <!--<script src="data.js"></script>-->
+  <script type="module" src="utility.js"></script>
+</body>
+</html>

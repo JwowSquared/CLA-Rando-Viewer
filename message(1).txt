@@ -1,0 +1,1648 @@
+
+const struct BattleTowerSpread gLegendaryTowerSpread_Lorelei[] = //0
+{
+		{
+		.species = SPECIES_SLOWBRO,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 0,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_HIDDEN, //ABILITY_REGENERATOR
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_SCALD,
+			MOVE_PSYSHOCK,
+			MOVE_NASTYPLOT,
+			MOVE_ICEBEAM,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_JYNX,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 0,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_HIDDEN, //ABILITY_DRYSKIN
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_FROSTBREATH, //407
+			MOVE_PSYCHICNOISE, //817
+			MOVE_AURASPHERE, //359
+			MOVE_LOVELYKISS, //142
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_CLOYSTER,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 0,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_2, //ABILITY Skill Link
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_SELFDESTRUCT,
+			MOVE_ICESHARD,
+			MOVE_SURF,
+			MOVE_ROCKBLAST,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	}
+};
+
+const struct BattleTowerSpread gLegendaryTowerSpread_Bruno[] = //1
+{
+		{
+		.species = SPECIES_HITMONCHAN,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_HIDDEN, //ABILITY_REGENERATOR
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_CLOSECOMBAT,
+			MOVE_ICEPUNCH,
+			MOVE_THUNDERPUNCH,
+			MOVE_MACHPUNCH,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_HITMONLEE,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_HIDDEN, //ABILITY_DRYSKIN
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_CLOSECOMBAT,
+			MOVE_FAKEOUT,
+			MOVE_SUCKERPUNCH,
+			MOVE_ROCKSLIDE,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_MACHAMP,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_2, //ABILITY Skill Link
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_DRAINPUNCH,
+			MOVE_BULLETPUNCH,
+			MOVE_ICEPUNCH,
+			MOVE_THUNDERPUNCH,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	}
+};
+
+const struct BattleTowerSpread gLegendaryTowerSpread_Agatha[] = //2
+{
+		{
+		.species = SPECIES_ARBOK,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_HIDDEN, //ABILITY_REGENERATOR
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_POISONJAB,
+			MOVE_COIL,
+			MOVE_SUCKERPUNCH,
+			MOVE_EARTHQUAKE,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_WEEZING,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_HIDDEN, //ABILITY_DRYSKIN
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_SLUDGEWAVE,
+			MOVE_PAINSPLIT,
+			MOVE_WILLOWISP,
+			MOVE_TOXICSPIKES,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_GENGAR,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_2, //ABILITY Skill Link
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_SHADOWBALL,
+			MOVE_SLUDGEWAVE,
+			MOVE_FOCUSBLAST,
+			MOVE_THUNDERBOLT,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	}
+};
+
+const struct BattleTowerSpread gLegendaryTowerSpread_Lance[] = //3
+{
+		{
+		.species = SPECIES_AERODACTYL,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_HIDDEN, //ABILITY_REGENERATOR
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_STONEEDGE,
+			MOVE_DUALWINGBEAT,
+			MOVE_EARTHQUAKE,
+			MOVE_CRUNCH,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_CHARIZARD,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_HIDDEN, //ABILITY_DRYSKIN
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_FLAMETHROWER,
+			MOVE_SOLARBEAM,
+			MOVE_FOCUSBLAST,
+			MOVE_ROOST,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_DRAGONITE,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_2, //ABILITY Skill Link
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_OUTRAGE,
+			MOVE_EARTHQUAKE,
+			MOVE_FIREPUNCH,
+			MOVE_EXTREMESPEED,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	}
+};
+
+
+const struct BattleTowerSpread gLegendaryTowerSpread_Blue[] = //4
+{
+		{
+		.species = SPECIES_PIDGEOT,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_HIDDEN, //ABILITY_REGENERATOR
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_HURRICANE,
+			MOVE_HEATWAVE,
+			MOVE_HYPERBEAM,
+			MOVE_PROTECT,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_ALAKAZAM,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_HIDDEN, //ABILITY_DRYSKIN
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_PSYCHIC,
+			MOVE_FOCUSBLAST,
+			MOVE_DAZZLINGGLEAM,
+			MOVE_ENERGYBALL,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_EXEGGUTOR,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_2, //ABILITY Skill Link
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_SOLARBEAM,
+			MOVE_PSYSHOCK,
+			MOVE_SUNNYDAY,
+			MOVE_SLEEPPOWDER,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_ARCANINE,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_2, //ABILITY Skill Link
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_FLAREBLITZ,
+			MOVE_CLOSECOMBAT,
+			MOVE_PLAYROUGH,
+			MOVE_EXTREMESPEED,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_BLASTOISE,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_2, //ABILITY Skill Link
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_WATERPULSE,
+			MOVE_AURASPHERE,
+			MOVE_DARKPULSE,
+			MOVE_SHELLSMASH,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	}
+};
+
+const struct BattleTowerSpread gLegendaryTowerSpread_Will[] = //5
+{
+	{
+		.species = SPECIES_XATU,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY_REGENERATOR
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_PSYCHIC,
+			MOVE_DUALWINGBEAT,
+			MOVE_ROOST,
+			MOVE_UTURN,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_GIRAFARIG,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY_DRYSKIN
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_PSYCHIC,
+			MOVE_HYPERVOICE,
+			MOVE_CALMMIND,
+			MOVE_ENERGYBALL,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_ESPEON,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY Skill Link
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_PSYCHIC,
+			MOVE_MORNINGSUN,
+			MOVE_CALMMIND,
+			MOVE_SHADOWBALL,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	}
+};
+
+
+const struct BattleTowerSpread gLegendaryTowerSpread_Koga[] = //6
+{
+	{
+		.species = SPECIES_ARIADOS,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY_REGENERATOR
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_POISONJAB,
+			MOVE_XSCISSOR,
+			MOVE_TOXICSPIKES,
+			MOVE_SHADOWSNEAK,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_FORRETRESS,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY_DRYSKIN
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_GYROBALL,
+			MOVE_VOLTSWITCH,
+			MOVE_STEALTHROCK,
+			MOVE_SPIKES,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_CROBAT,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY Skill Link
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_ACROBATICS,
+			MOVE_UTURN,
+			MOVE_HYPNOSIS,
+			MOVE_ROOST,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	}
+};
+
+const struct BattleTowerSpread gLegendaryTowerSpread_Bruno2[] = //7
+{
+	{
+		.species = SPECIES_HITMONTOP,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY_REGENERATOR
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_HIGHJUMPKICK,
+			MOVE_STONEEDGE,
+			MOVE_PURSUIT,
+			MOVE_BULLETPUNCH,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_HERACROSS,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY_DRYSKIN
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_CLOSECOMBAT,
+			MOVE_KNOCKOFF,
+			MOVE_FACADE,
+			MOVE_SWORDSDANCE,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_STEELIX,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY Skill Link
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_GYROBALL,
+			MOVE_EARTHQUAKE,
+			MOVE_ROCKSLIDE,
+			MOVE_EXPLOSION,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	}
+};
+
+const struct BattleTowerSpread gLegendaryTowerSpread_Karen[] = //8
+{
+	{
+		.species = SPECIES_MURKROW,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY_REGENERATOR
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_SUCKERPUNCH,
+			MOVE_BRAVEBIRD,
+			MOVE_HEATWAVE,
+			MOVE_ROOST,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_UMBREON,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY_DRYSKIN
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_FOULPLAY,
+			MOVE_TOXIC,
+			MOVE_WISH,
+			MOVE_PROTECT,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_HOUNDOOM,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY Skill Link
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_FIREBLAST,
+			MOVE_DARKPULSE,
+			MOVE_TAUNT,
+			MOVE_NASTYPLOT,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	}
+};
+
+const struct BattleTowerSpread gLegendaryTowerSpread_Lance2[] = //9
+{
+	{
+		.species = SPECIES_FERALIGATR,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY_REGENERATOR
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_LIQUIDATION,
+			MOVE_ICEPUNCH,
+			MOVE_CRUNCH,
+			MOVE_DRAGONDANCE,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_KINGDRA,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY_DRYSKIN
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_WATERFALL,
+			MOVE_IRONHEAD,
+			MOVE_YAWN,
+			MOVE_DRAGONDANCE,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_AMPHAROS,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY_DRYSKIN
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_THUNDERPUNCH,
+			MOVE_BRICKBREAK,
+			MOVE_SCREECH,
+			MOVE_THUNDERWAVE,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_DRAGONITE,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY Skill Link
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_DRAGONRUSH,
+			MOVE_IRONTAIL,
+			MOVE_AQUAJET,
+			MOVE_HURRICANE,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+		{
+		.species = SPECIES_TYRANITAR,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY Skill Link
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_STONEEDGE,
+			MOVE_PAYBACK,
+			MOVE_EARTHQUAKE,
+			MOVE_ICEPUNCH,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	}
+};
+
+const struct BattleTowerSpread gLegendaryTowerSpread_Sidney[] = //10
+{
+	{
+		.species = SPECIES_SHIFTRY,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY_REGENERATOR
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_SOLARBEAM,
+			MOVE_DARKPULSE,
+			MOVE_HEATWAVE,
+			MOVE_SUNNYDAY,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_SHARPEDO,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY_DRYSKIN
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_WATERFALL,
+			MOVE_CRUNCH,
+			MOVE_EARTHQUAKE,
+			MOVE_PROTECT,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_ABSOL,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY Skill Link
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_NIGHTSLASH,
+			MOVE_PSYCHOCUT,
+			MOVE_PLAYROUGH,
+			MOVE_SWORDSDANCE,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	}
+};
+
+const struct BattleTowerSpread gLegendaryTowerSpread_Phoebe[] = //11
+{
+	{
+		.species = SPECIES_DUSCLOPS,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY_REGENERATOR
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_SHADOWBALL,
+			MOVE_ICEBEAM,
+			MOVE_CALMMIND,
+			MOVE_REST,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_SABLEYE,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY_DRYSKIN
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_KNOCKOFF,
+			MOVE_WILLOWISP,
+			MOVE_TAUNT,
+			MOVE_RECOVER,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_BANETTE,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY Skill Link
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_SHADOWCLAW,
+			MOVE_SUCKERPUNCH,
+			MOVE_KNOCKOFF,
+			MOVE_WILLOWISP,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	}
+};
+
+const struct BattleTowerSpread gLegendaryTowerSpread_Glacia[] = //12
+{
+	{
+		.species = SPECIES_GLALIE,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY_REGENERATOR
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_FREEZEDRY,
+			MOVE_DARKPULSE,
+			MOVE_SHADOWBALL,
+			MOVE_WATERPULSE,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_WALREIN,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY_DRYSKIN
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_ICEBALL,
+			MOVE_EARTHQUAKE,
+			MOVE_ENCORE,
+			MOVE_SWORDSDANCE,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_HUNTAIL,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY Skill Link
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_AQUATAIL,
+			MOVE_ICEFANG,
+			MOVE_GIGAIMPACT,
+			MOVE_SHELLSMASH,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	}
+};
+
+const struct BattleTowerSpread gLegendaryTowerSpread_Drake[] = //13
+{
+	{
+		.species = SPECIES_SCEPTILE,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY_REGENERATOR
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_LEAFBLADE,
+			MOVE_NIGHTSLASH,
+			MOVE_EARTHQUAKE,
+			MOVE_SWORDSDANCE,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_FLYGON,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY_DRYSKIN
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_OUTRAGE,
+			MOVE_EARTHQUAKE,
+			MOVE_IRONTAIL,
+			MOVE_DRAGONDANCE,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_SALAMENCE,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY Skill Link
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_FLY,
+			MOVE_FIREFANG,
+			MOVE_DRAGONDANCE,
+			MOVE_SUBSTITUTE,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	}
+};
+
+
+const struct BattleTowerSpread gLegendaryTowerSpread_Steven[] = //14
+{
+	{
+		.species = SPECIES_ARMALDO,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY_REGENERATOR
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_STONEEDGE,
+			MOVE_XSCISSOR,
+			MOVE_EARTHQUAKE,
+			MOVE_AQUAJET,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_CRADILY,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY_DRYSKIN
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_GIGADRAIN,
+			MOVE_MIRRORCOAT,
+			MOVE_INGRAIN,
+			MOVE_RECOVER,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_SKARMORY,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY_DRYSKIN
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_BRAVEBIRD,
+			MOVE_IRONHEAD,
+			MOVE_SWORDSDANCE,
+			MOVE_AUTOTOMIZE,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_AGGRON,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY Skill Link
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_HEAVYSLAM,
+			MOVE_HEADSMASH,
+			MOVE_EARTHQUAKE,
+			MOVE_AQUATAIL,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+		{
+		.species = SPECIES_METAGROSS,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY Skill Link
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_METEORMASH,
+			MOVE_EARTHQUAKE,
+			MOVE_TOXIC,
+			MOVE_STEALTHROCK,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	}
+};
+
+const struct BattleTowerSpread gLegendaryTowerSpread_Aaron[] = //15
+{
+	{
+		.species = SPECIES_VESPIQUEN,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY_REGENERATOR
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_ATTACKORDER,
+			MOVE_CROSSPOISON,
+			MOVE_DESTINYBOND,
+			MOVE_TAILWIND,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_DRAPION,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY_DRYSKIN
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_CROSSPOISON,
+			MOVE_NIGHTSLASH,
+			MOVE_AQUATAIL,
+			MOVE_SWORDSDANCE,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_YANMEGA,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY Skill Link
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_BUGBUZZ,
+			MOVE_AIRSLASH,
+			MOVE_GIGADRAIN,
+			MOVE_UTURN,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	}
+};
+
+
+const struct BattleTowerSpread gLegendaryTowerSpread_Bertha[] = //16
+{
+	{
+		.species = SPECIES_HIPPOWDON,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY_REGENERATOR
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_EARTHQUAKE,
+			MOVE_TOXIC,
+			MOVE_STEALTHROCK,
+			MOVE_SLACKOFF,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_RHYPERIOR,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY_DRYSKIN
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_EARTHQUAKE,
+			MOVE_BODYPRESS,
+			MOVE_TOXIC,
+			MOVE_STEALTHROCK,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_MAMOSWINE,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY Skill Link
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_EARTHQUAKE,
+			MOVE_ICICLESPEAR,
+			MOVE_ICESHARD,
+			MOVE_STONEEDGE,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	}
+};
+
+const struct BattleTowerSpread gLegendaryTowerSpread_Flint[] = //17
+{
+	{
+		.species = SPECIES_INFERNAPE,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY_REGENERATOR
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_FLAREBLITZ,
+			MOVE_CLOSECOMBAT,
+			MOVE_STONEEDGE,
+			MOVE_UTURN,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_DRIFBLIM,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY_DRYSKIN
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_ACROBATICS,
+			MOVE_SUCKERPUNCH,
+			MOVE_KNOCKOFF,
+			MOVE_SUBSTITUTE,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_MAGMORTAR,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY Skill Link
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_FLAMETHROWER,
+			MOVE_THUNDERBOLT,
+			MOVE_FOCUSBLAST,
+			MOVE_TAUNT,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	}
+};
+
+const struct BattleTowerSpread gLegendaryTowerSpread_Lucian[] = //18
+{
+	{
+		.species = SPECIES_BRONZONG,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY_REGENERATOR
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_GYROBALL,
+			MOVE_TOXIC,
+			MOVE_STEALTHROCK,
+			MOVE_PROTECT,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_GALLADE,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY_DRYSKIN
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_PSYCHOCUT,
+			MOVE_CLOSECOMBAT,
+			MOVE_LEAFBLADE,
+			MOVE_SWORDSDANCE,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_MISMAGIUS,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY Skill Link
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_SHADOWBALL,
+			MOVE_DAZZLINGGLEAM,
+			MOVE_TAUNT,
+			MOVE_NASTYPLOT,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	}
+};
+
+const struct BattleTowerSpread gLegendaryTowerSpread_Cynthia[] = //19
+{
+	{
+		.species = SPECIES_SPIRITOMB,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY_REGENERATOR
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_FOULPLAY,
+			MOVE_SUCKERPUNCH,
+			MOVE_PURSUIT,
+			MOVE_WILLOWISP,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_ROSERADE,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY_DRYSKIN
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_GIGADRAIN,
+			MOVE_LEECHSEED,
+			MOVE_SPIKES,
+			MOVE_TOXICSPIKES,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_LUCARIO,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY Skill Link
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_CLOSECOMBAT,
+			MOVE_BULLETPUNCH,
+			MOVE_EARTHQUAKE,
+			MOVE_SWORDSDANCE,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+		{
+		.species = SPECIES_GARCHOMP,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY Skill Link
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_DRAGONCLAW,
+			MOVE_EARTHQUAKE,
+			MOVE_CRUNCH,
+			MOVE_SWORDSDANCE,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+	{
+		.species = SPECIES_TOGEKISS,
+		.nature = NATURE_BASHFUL,
+		.hpIv = 31,
+		.atkIv = 31,
+		.defIv = 31,
+		.spAtkIv = 31,
+		.spDefIv = 31,
+		.spdIv = 31,
+		.ability = FRONTIER_ABILITY_1, //ABILITY_SUPERLUCK
+		.item = ITEM_NONE,
+		.moves =
+		{
+			MOVE_DAZZLINGGLEAM,
+			MOVE_AIRSLASH,
+			MOVE_AURASPHERE,
+			MOVE_NASTYPLOT,
+		},
+		.ball = BALL_TYPE_RANDOM,
+		.forSingles = TRUE,
+		.forDoubles = TRUE,
+		.modifyMovesDoubles = TRUE,
+	},
+};

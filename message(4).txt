@@ -1,0 +1,40 @@
+move_t RandomizeMoveNPC(u16 move, u16 species)
+{
+    if (move == MOVE_NONE || move == MOVE_STRUGGLE)
+        return move;
+    
+    u16 newMove = move;
+    u32 id = MathMax(1, T1_READ_32(gSaveBlock2->playerTrainerId)); //0 id would mean every Pokemon would crash the game
+    u16 moveCount;
+
+    // if (FlagGet(FLAG_HARDCORE_MODE) || FlagGet(FLAG_RESTRICT_MODE)) {
+    //     moveCount =  gNumRandomizerHardcoreMoveList;
+    // }
+    if (FlagGet(FLAG_CHRIS_KAIZO)) {
+        moveCount = gNumRandomizerKaizoNPCMoveList;
+    }
+    else {
+        moveCount = gNumRandomizerMoveList;
+    }
+
+    u32 index;
+     murmurhash2a_init(index);
+    murmurhash2a_update(index, id);
+    murmurhash2a_update(index, species);
+    murmurhash2a_update(index, move);
+    murmurhash2a_final(index);
+
+    index = index % (u32) moveCount;
+
+    if (FlagGet(FLAG_HARDCORE_MODE) || FlagGet(FLAG_RESTRICT_MODE)) {
+        newMove = gRandomizerHardcoreMoveList[index];
+    }
+    else if (FlagGet(FLAG_CHRIS_KAIZO)) {
+        newMove = gRandomizerKaizoNPCMoveList[index];
+    }
+    else {
+        newMove = gRandomizerMoveList[index];
+    }
+
+    return newMove;
+}
